@@ -6,6 +6,26 @@ Integrates Django ORM with FastAPI.
    ```bash
    pip install -r packages.txt
    ```
+---
+
+## **Use Django commands for database migrations**
+
+1. **Make Migrations**
+   ```bash
+   python manage.py makemigrations
+   ```
+
+2. **Apply Migrations**
+   ```bash
+   python manage.py migrate
+   ```
+
+3. **Interactive Shell**
+   ```bash
+   python manage.py shell
+   ```
+
+## **Development Instruction**
 
 1. **Create a Django Project and App**
    ```bash
@@ -53,26 +73,7 @@ Integrates Django ORM with FastAPI.
    __all__ = ['BaseModel']
    __all__ += ['Product']
    ```
-
----
-
-## **Use Django commands for database migrations**
-
-1. **Make Migrations**
-   ```bash
-   python manage.py makemigrations
-   ```
-
-2. **Apply Migrations**
-   ```bash
-   python manage.py migrate
-   ```
-
-3. **Interactive Shell**
-   ```bash
-   python manage.py shell
-   ```
-
+   
 ---
 
 ## **Endpoints**
