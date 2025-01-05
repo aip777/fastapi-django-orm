@@ -10,9 +10,3 @@ class Product(BaseModel):
 
     def __str__(self):
         return self.name
-
-class CreateProduct(BaseModel):
-    name: str
-    description: str = None
-    price: float = 0.0
-    stock: int = 0

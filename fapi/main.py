@@ -4,9 +4,8 @@ from asgiref.sync import sync_to_async
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
 django.setup()
 from fastapi import FastAPI, HTTPException
-from fapi.models.product import Product, CreateProduct
+from fapi.models.product import Product
 from typing import List
-from django.db import transaction
 app = FastAPI()
 
 
