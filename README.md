@@ -56,9 +56,7 @@ Integrates Django ORM with FastAPI.
 
 ---
 
-## **Using Django ORM Commands**
-
-Use Django commands for database migrations:
+## **Use Django commands for database migrations**
 
 1. **Make Migrations**
    ```bash
