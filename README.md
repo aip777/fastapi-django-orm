@@ -4,7 +4,7 @@ Integrates Django ORM with FastAPI.
 
 ## **Setup**
    ```bash
-   pip freeze -r packages.txt
+   pip install -r packages.txt
    ```
 
 1. **Create a Django Project and App**
